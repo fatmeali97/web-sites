@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Въпросник</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+</head>
+
+<body>
+
+    <main>
+        <section>
+            <article id="questionary-style">
+                <div id="home">
+                    <a href="index.html"><i class="fas fa-home"></i></a>
+                </div>
+                <form action="#" class="form">
+                    <h3>Въпросник</h3>
+                    <label for="first name"> *Име </label>
+                    <input type="text" Name="first name" id="firstname" required="required">
+                    <label for="last name"> *Фамилия </label>
+                    <input type="text" Name="last name" id="last name" required="required">
+                    <label for="phone"> *телефон </label>
+                    <input type="tel" Name="phone" id="phone" required="required">
+                    <label for="email"> *email адрес </label>
+                    <input type="email" Name="email" id="email" required="required">
+                    <label for="age">  *възраст </label>
+                    <input type="number" Name="age" id="age" required="required">
+                    <label for="bloodtype">Кръвна група</label>
+                    <input type="text" Name="bloodtype" id="bloodtype">
+                    <label for="height">Височина</label>
+                    <input type="number" Name="height" id="height">
+                    <label for="kilograms">Килограми</label>
+                    <input type="number" Name="kilograms" id="kilograms">
+                    <label for="mamdesease"> Заболявания или лоши навици на майката малко преди или по време на бремеността: (пример: дали е приемала лекарства, какви, дали е пушила, или употрябявала алкохол и др.)</label>
+
+                    <textarea Name="mamdesease" id="mamdesease" required="required"></textarea>
+                    <label for="daddesease">Заболявания или лоши навици на бащата преди зачеване: </label>
+                    <textarea Name="daddesease" id="daddesease" required="required"></textarea>
+                    <p>Роден/а:</p>
+                    <div class="born-on">
+                        <input class="inline" type="radio" value="нормално" name="born" id="normal">
+                        <label for="normal">нормално</label>
+                        <input class="inline" type="radio" value="секцио" name="born" id="withoperation">
+                        <label for="withoperation">секцио</label></div>
+                    <label for="bornmonth"> През коя гестационна седмица си роден/а, може и в месеци (пример:7 месец, 9 месец)</label>
+                    <input type="text" name="bornmonth" id="bornmonth">
+                    <label for="breastfeeding">Колко време си кърмен/а?</label>
+                    <input type="text" name="breastfeeding" id="breastfeeding" required="required">
+                    <p>Важно е за нас да знаем какви заболявания си прекарала и кога, затова ще разделим живота ти на периоди през 5 години, а ти напиши всичко, за което се сещаш и знаеш. Понякога това, което ти се струва безобидно може да бъде причината
+                        днес да не се чувстваш добре, затова не се плаши да напишеш всичко.</p>
+
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <!-- попитай, как можеш със js,  спрямо горепосочената възраст да ти се разгравяват полета разделящи възраста на човека на 5 -->
+
+                    <div class="spacediv"></div>
+                    <label for="pets">Имал/а ли си или имаш ли в момента домашен любимец, ако да какъв любимец?  </label>
+                    <input type="text" name="pets" id="pets">
+                    <label for="water">Kолко вода пиеш на ден?</label>
+                    <input type="text" name="water" id="water">
+                    <label for="night"> Имаш ли нощни събуждания, ако да в кой часови интервал?</label>
+                    <input type="text" name="night" id="night">
+                    <label for="foodtype">Колко пъти се храниш на ден и на какви продукти наблягаш? (примерно:повече месо или повече зеленчуци) </label>
+                    <input type="text" name="foodtype" id="foodtype">
+                    <label for="alergies">Имате ли доказани алергии или съмнения за такива, избройте ги:</label>
+                    <input type="text" name="alergies" id="alergies">
+                    <label for="toalet">Колко пъти се изхождаш (всеки ден, през ден и т.н)?</label>
+                    <input type="text" name="toalet" id="toalet">
+                    <label for="mainproblem">Mоля опиши какви проблеми имаш към днешна дата, подробно:</label>
+                    <input class="biginput" type="text" name="mainproblem" id="mainproblem">
+                    <p id="newinformation">Moже да споделиш друго, ако смяташ, че сме забравили да те попитаме, а е важно да знаем</p>
+                    <textarea name="newinformation" id="newinformation" cols="30" rows="10"></textarea>
+                    <div>
+                        <input type="submit" value="Изпрати" id="submit">
+
+                        <input type="reset" value="Изчисти" id="reset">
+                    </div>
+            </article>
+            </form>
+
+        </section>
+    </main>
+
+
+
+    <script src="./js/all.min.js "></script>
+    <script src="./js/js.js "></script>
+
+</body>
+
+</html>

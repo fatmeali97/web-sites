@@ -1,0 +1,231 @@
+/* Smartphone only */
+
+@media (max-width: 768px) {
+    /* index html */
+    header .navigationbar {
+        height: 100vh;
+        text-align: center;
+        position: fixed;
+        z-index: 20;
+        flex-direction: column;
+        justify-content: center;
+        display: none;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-color: beige;
+    }
+    .navigationbar ul {
+        flex-direction: column;
+        margin-top: 20px;
+        display: none;
+    }
+    section .navigationbar span a {
+        display: inline-block;
+        color: #093f66;
+        font-size: 25px;
+        margin: 15px 10px;
+    }
+    section .hamburger-menu,
+    .close-hamburger-menu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 18px;
+    }
+    header section .close-hamburger-menu {
+        display: block;
+    }
+    header .hamburger-menu {
+        font-size: 25px;
+    }
+    section .fruit {
+        color: rgb(245, 140, 20);
+        display: block;
+        font-size: 40px;
+    }
+    header .mainheader {
+        display: none;
+    }
+    .spacediv {
+        display: none;
+    }
+    /* main */
+    main .miniconteiner p {
+        font-size: 18px;
+        margin: 10px;
+    }
+    main .miniconteiner h3 {
+        font-size: 25px;
+        margin: 20px auto;
+    }
+    main .miniconteiner {
+        margin: 0;
+        padding: 0;
+    }
+    main article .avatar {
+        display: none;
+    }
+    main article .responsive-avatar {
+        display: block;
+        margin: 25px auto;
+        align-items: center;
+        height: 280px;
+        width: 320px;
+    }
+    /*first grid section */
+    /* main .secondsection-grid {
+        display: flex;
+        flex-direction: column;
+    } */
+    .responsive-div {
+        margin: 80px;
+    }
+    main .secondsection-grid article {
+        padding: 10px 20px;
+        margin: auto 15px;
+        text-align: center;
+    }
+    main .quotes p {
+        padding-top: 17px;
+    }
+    main .externalinformation h3 {
+        font-size: 25px;
+    }
+    main .externalinformation p {
+        font-weight: 400;
+        font-size: 18px;
+        margin: 25px 35px;
+    }
+    /* externallinks */
+    main .externalinformation .externallinks a {
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    main .externalinformation #externallinks {
+        display: inline-block;
+    }
+    /* footer */
+    footer.footerside {
+        justify-content: center;
+    }
+    .footerside article h2 {
+        font-size: 25px;
+        margin: 10px;
+    }
+    .footerside img {
+        display: none;
+    }
+    .footerside .worktime {
+        margin: 5px auto;
+    }
+    .footerside .worktime p {
+        color: var(--pink);
+        margin: 30px 20px;
+    }
+    .footerside p a {
+        font-size: 18px;
+    }
+    .footerside p {
+        margin-top: 30px;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    .footerside h3 {
+        margin-left: 25px;
+        font-size: 25px;
+    }
+    .footerside p a span {
+        font-size: 25px;
+        text-align: center;
+        display: inline-block;
+    }
+    /* for us  */
+    .person {
+        flex-direction: column;
+    }
+    main .forusmainsection p {
+        display: none;
+    }
+    main .responsive-p {
+        display: block;
+    }
+    main .responsive-p p {
+        color: var(--blue);
+        font-size: 20px;
+        text-align: left;
+        align-items: left;
+        margin: 5px 15px;
+    }
+    /* buttons */
+    main .buttons ul li {
+        display: block;
+        padding: 0;
+        margin: 50px 10px;
+    }
+    main .buttons article ul li a {
+        border: 1px solid var(--green);
+        background-color: var(--bgcolor);
+        align-items: center;
+        font-size: 15px;
+        color: var(--blue);
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+    /* nutrition */
+    main .grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .grid .middlepicture {
+        height: 380px;
+        width: 400px;
+        margin: 0;
+    }
+    header .mainheader-type h3 {
+        font-size: 35px;
+        margin: 10px 10px;
+    }
+    .nutrisections .bigimg {
+        height: 50vh;
+        width: 90%;
+        margin: 10px 20px;
+    }
+    /* services */
+    .mainsectionservices .service-type {
+        flex-direction: column;
+        align-items: left;
+        text-align: left;
+        margin-right: 200px;
+    }
+    .service-type article {
+        width: 50%;
+    }
+    .mainsectionservices .service-type article h3 {
+        border-radius: 100%;
+        font-size: 25px;
+        text-align: center;
+        transition: 0.8s;
+        margin: 50px;
+        padding: 0;
+    }
+    main .mainsectionservices h2 {
+        margin-bottom: 50px;
+    }
+    .mainsectionservices .service-type article h3:hover {
+        background-color: var(--bggreen);
+        color: var(--blue);
+    }
+    .services-explanation section .questionary {
+        align-items: center;
+        margin: 40px 110px;
+    }
+    .services-explanation p,
+    h3 {
+        padding: 5px 8px;
+    }
+    .biomachine article .bigimg {
+        display: none;
+    }
+}
